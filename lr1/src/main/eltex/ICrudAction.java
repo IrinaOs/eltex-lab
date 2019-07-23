@@ -1,13 +1,12 @@
+package eltex;
+
 import java.util.Scanner;
 
 public interface ICrudAction {
-
-
     /**
      *  заполнение объекта случайными значениями и инкремент счётчика.
      */
     void create();
-
 
     /**
      * * вывод данных на экран.

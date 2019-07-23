@@ -1,3 +1,5 @@
+package eltex;
+
 import java.util.Scanner;
 import java.util.UUID;
 
@@ -27,9 +29,8 @@ public abstract class Product implements ICrudAction {
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
     }
-        public UUID getUUID() {
+
+    public UUID getUUID() {
             return ID;
         }
-
-
 }
