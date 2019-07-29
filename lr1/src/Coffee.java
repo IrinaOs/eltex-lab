@@ -8,9 +8,10 @@ public class Coffee extends Product {
         System.out.println("");
    }
 
-  /* public Coffee () {
+   /* public Coffee () {
         this ();
-   }*/
+        System.out.println(message);
+    }*/
 
     @Override
     public void create() {
@@ -18,7 +19,14 @@ public class Coffee extends Product {
     }
 
     @Override
+    public void read() {
+        super();
+        System.out.println(this.beans);
+    }
+
+    @Override
     public void update() {
+        System.out.println("Введите вид зёрен: ");
         Scanner st = new Scanner(System.in);
         String beans = st.nextLine();
     }
