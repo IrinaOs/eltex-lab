@@ -31,26 +31,24 @@ public abstract class Product implements ICrudAction {
         System.out.println(country);
     }
 
+
+    /*Динамический массив*/
     @Override
     public void update() {
         /*System.out.println("Введите кол-во товара: ");
         Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();*/
+        Scanner sc = new Scanner(System.in);
         System.out.println("Введите название: ");
-        Scanner sc = new Scanner(System.in);
-        String i = sc.nextInt();
+        String i = sc.nextLine();
         System.out.println("Введите стоимость товара: ");
-        Scanner sc = new Scanner(System.in);
         int i = sc.nextInt();
         System.out.println("Введите фирму производителя: ");
-        Scanner sc = new Scanner(System.in);
-        String i = sc.nextInt();
+        String i = sc.nextLine();
         System.out.println("Введите страну производителя: ");
-        Scanner sc = new Scanner(System.in);
-        String i = sc.nextInt();
+        String i = sc.nextLine();
         System.out.println("Введите кол-во товара");
-        Scanner sc = new Scanner(System.in);
-        String i = sc.nextInt();
+        String i = sc.nextILine();
     }
 
     @Override
